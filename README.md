@@ -17,7 +17,7 @@ docker tag cloudrail-spacelift:latest public.ecr.aws/f8i6n0s5/cloudrail-spacelif
 docker push public.ecr.aws/f8i6n0s5/cloudrail-spacelift:latest
 ```
 
-This will make the container image available for access from Spacelift. Note that public workers require public container images, per [https://docs.spacelift.io/integrations/docker](Spacelift's documentation).
+This will make the container image available for access from Spacelift. Note that public workers require public container images, per [Spacelift's documentation](https://docs.spacelift.io/integrations/docker).
 
 ## Using the docker image
 1. Within the Spacelift web interface, look for your stack. Click on it.
